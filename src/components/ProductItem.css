@@ -1,0 +1,13 @@
+#product-prices li {
+    list-style: none;
+}
+
+#buy-button button {
+    background-color:#6b419b ;
+    border: none;
+    border-radius: 4px;
+}
+
+#buy-button button:hover {
+    background-color: #533278;
+}

@@ -18,7 +18,7 @@ export const RipleyApp = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-12 mt-3">
+                <div className="col-12 mt-4">
                     {
                         product.map(item => (
                             <ProductItem 
