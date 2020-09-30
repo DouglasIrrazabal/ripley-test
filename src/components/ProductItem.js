@@ -22,14 +22,15 @@ export const ProductItem = ({
                         <h5 className="text-muted">SKU: {partNumber}</h5>
                     </div>
                     <div id="product-prices">
-                        <li>
-                            <span id="methodOfPayment">Tarjeta Ripley </span>
-                            <span id="price">{formattedCardPrice}</span>
-                        </li>
-                        <li>
+                        <li className="font-weight-light">
                             <span id="methodOfPayment">Internet </span>
                             <span id="price">{formattedOfferPrice}</span>
                         </li>
+                        <li className="font-weight-bold text-danger">
+                            <span id="methodOfPayment">Tarjeta Ripley </span>
+                            <span id="price">{formattedCardPrice}</span>
+                        </li>
+                        
                     </div>
                     <div id="buy-button">
                         <button className="p-3 mt-2 text-white">Agregar al carrito</button>
